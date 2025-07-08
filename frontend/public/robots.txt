@@ -1,0 +1,528 @@
+
+      <section>
+        <div className="row">
+          <div className="col-9" style={{ backgroundColor: "#D4E6F1" }}>
+            <div className="container" style={{ padding: "50px" }}>
+              <h2 className="text-center mb-4">Blog Details</h2>
+              {loading && <div className="text-center">Loading...</div>}
+              {error && <div className="text-danger text-center">{error}</div>}
+
+              {singleBlog ? (
+                <>
+                  <div className="container">
+                    <div className="row">
+                      <img
+                        src={`${imagePath}${singleBlog.blog_images[0]}`}
+                        alt={singleBlog.blog_name}
+                        style={{ height: "500px", width: "1200px" }}
+                      /><br/><br/>
+                      <br/><br/>
+                    </div>
+
+                    
+
+                    
+                    
+
+
+
+                    <div className="row">
+                      <br/>
+                      <div className="col-2"><i class='bx bx-time-five'></i>{formatDate(singleBlog.date)}</div>
+                      <div className="col-2">
+                        <p className="card-title"><i class='bx bx-user'></i>By Admin  </p>
+                      </div>
+                      <div className="col-2">
+                        <p className="card-text">
+                        <i class='bx bxs-purchase-tag'></i>Agriculture
+                        </p>
+                      </div>
+                      <div className="col-2"></div>
+                      <div className="col-2"></div>
+                      <div className="col-2"></div>
+                    </div>
+
+
+
+                    
+
+
+
+                  </div>
+                </>
+              ) : (
+                <div className="text-center">No blog found.</div>
+              )}
+              <div className="line"></div>
+              <div className="container">
+                <article className="aligned-text">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum The man, who is in a stable
+                  condition in hospital, has "potentially life-changing
+                  injuries" after the overnight attack in Garvagh, County
+                  Londonderry. He was shot in the arms and legs. "What sort of
+                  men would think it is acceptable to subject a young girl to
+                  this level of brutality and violence?
+                </article>
+<br/>
+                <article className="aligned-text">
+                  "Every child has the right to feel safe and protected in their
+                  own home - how is this poor child going to sleep tonight or in
+                  the coming nights? What are the long term effects on her going
+                  to be?"
+                </article>
+
+                <br/>
+
+                <h3>Content without backward-compatible data</h3>
+
+                <article className="aligned-text">
+                  “There is absolutely no justification for an attack like this
+                  in our communities and we must all work together to bring
+                  those responsible to justice and to stop this from happening
+                  to another child.” Their community. I wonder how they would
+                  feel if their own child witnessed such a level of violence?
+                </article>
+
+<br/>
+
+                <article className="aligned-text">
+                  Earlier this month, the PSNI launched a hard-hitting
+                  advertisement campaign aimed at changing public attitudes to
+                  paramilitary attacks.
+                </article>
+
+                <div class="blog-details-images">
+                  <div class="row">
+                  
+                    <div class="col-md-6">
+                      <div class="blog-details-image">
+                      <br/>
+                        <img
+                          src="https://html.themexriver.com/organio/assets/img/blog/bd-d2.jpg"
+                          alt="Image related to the blog post"
+                          style={{ height: "300px", width: "500px" }}
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="blog-details-image">
+                      <br/>
+                        <img
+                          src="https://html.themexriver.com/organio/assets/img/blog/bd-d3.jpg"
+                          alt="Image related to the blog post"
+                          style={{ height: "300px", width: "500px" }}
+                        />
+                        <br/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+<br/>
+
+                <h3>A Kentucky woman who was accused last year</h3>
+
+<br/>
+
+                <article className="aligned-text">
+                  The intruders chased the girl in the house and threatened her
+                  when she hid from them, according to the PSNI Limavady
+                  Facebook page. “She came out petrified with her Piggy Bank,
+                  HER PIGGY BANK! hoping that the men would take it and leave
+                  her dad alone.”
+                </article>
+
+<br/>
+
+                <article className="aligned-text">
+                  Men who are so beguiled & demoralized our power of pleasure is
+                  to be welcomed. Denounce with righteous indignation and
+                  dislike men who are so beguiled.
+                </article>
+
+<br/>
+
+                <blockquote className="aligned-text">
+                  “What sort of men would think it is acceptable to subject a
+                  young girl to this level of brutality and violence? An attack
+                  like this.”
+                  <footer>
+                    <cite>Neil Borton</cite>
+                  </footer>
+                </blockquote>
+
+                <article className="aligned-text">
+                  The intruders chased the girl in the house and threatened her
+                  when she hid from them, according to the PSNI Limavady
+                  Facebook page.
+                </article>
+
+<br/>
+
+                <article className="aligned-text">
+                  “She came out petrified with her Piggy Bank, HER PIGGY BANK!
+                  hoping that the men would take it and leave her dad alone,”
+                  one outraged officer wrote. Especially in capital projects and
+                  the suppliers and consultants that work for you know the value
+                  of a customer like that. As a consultant executing two
+                  projects for a large multinational, I realize how very
+                  difficult it sometimes can be on the receiving end.
+                </article>
+
+<br/>
+
+                <div class="blog-tag-share clearfix">
+                  <div class="blog-tags float-left">
+                    <span>Tags:</span>
+                    <a href="#">Business</a>
+                    <a href="#">Life</a>
+                    <a href="#">Truck</a>
+                    <a href="#">Technique</a>
+                  </div>
+                  <div class="blog-share">
+                    <a class="fb-social" href="#">
+                      <i class="fab fa-facebook-f"></i>
+                      
+                    </a>
+                    <a class="tw-social" href="#">
+                      <i class="fab fa-twitter"></i>
+                      
+                    </a>
+                    <a class="ln-social" href="#">
+                      <i class="fab fa-linkedin-in"></i>
+                      
+                    </a>
+                    <a class="in-social" href="#">
+                      <i class="fab fa-instagram"></i>
+                      
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div className="line"></div>
+             
+              <br />
+              <div className="row">
+                <div className="col-6 nextbox">
+                  <h4 style={{ textAlign: "left" }}>
+                    <span>
+                      <i className="bx bx-chevrons-left"></i>
+                    </span>
+                    PREVIOUS POST
+                  </h4>
+                  <div className="row">
+                    <div className="col-4">
+                      <img
+                        src="https://i.pinimg.com/originals/3a/a7/dd/3aa7dd6250bd44751a0e9023922acc53.jpg"
+                        alt="Previous Post"
+                        style={{
+                          width: "50px",
+                          height: "50px",
+                          borderRadius: "50%",
+                        }}
+                      />
+                    </div>
+                    <div className="col-6">
+                      <h6>Our 6 of the Best Organic Chocolates to Buy.</h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-6 nextbox">
+                  <h4 style={{ textAlign: "right" }}>
+                    NEXT POST
+                    <span>
+                      <i className="bx bx-chevrons-right"></i>
+                    </span>
+                  </h4>
+                  <div className="row">
+                    <div className="col-4">
+                      <img
+                        src="https://im.whatshot.in/img/2020/Apr/istock-870915532-1587033305.jpg"
+                        alt="Next Post"
+                        style={{
+                          width: "50px",
+                          height: "50px",
+                          borderRadius: "50%",
+                        }}
+                      />
+                    </div>
+                    <div className="col-6">
+                      <h6>Our 6 of the Best Organic Chocolates to Buy.</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br />
+
+              <div className="line"></div>
+              <br />
+              <br />
+
+              <br />
+              <br />
+              <div className="row">
+                <h3 style={{ textAlign: "left" }}>Comment(2)</h3>
+                <br />
+                <br />
+                <br />
+                <br />
+                <div className="col-3">
+                  <img
+                    src="http://4.bp.blogspot.com/-JxgpzoVy7xM/Tc2VwshOWRI/AAAAAAAABbg/vpu1T9_t9og/s1600/KARGES_SARAH-55edited.jpg"
+                    alt="Commenter"
+                    style={{
+                      width: "100px",
+                      height: "100px",
+                      borderRadius: "50%",
+                    }}
+                  />
+                </div>
+                <div className="col-7">
+                  <h6 style={{ textAlign: "left" }}>Riva Collins</h6>
+                  <h5 style={{ textAlign: "left", color: "#70a73d" }}>
+                    NOVEMBER 19, 2020 AT 11:00 AM
+                  </h5>
+                  <p style={{ textAlign: "left" }}>
+                    It’s no secret that the digital industry is booming. From
+                    exciting startups to need ghor global and brands, companies
+                    are reaching out.
+                  </p>
+                </div>
+                <div className="col-2 replybutton">
+                  <button type="button">
+                    REPLY
+                    <span>
+                      <i className="bx bx-chevron-right"></i>
+                    </span>
+                  </button>
+                </div>
+              </div>
+
+              <div className="row">
+                <div className="col-3">
+                  <img
+                    src="https://d2z1w4aiblvrwu.cloudfront.net/ad/nEgh/farmers-insurance-save-with-signal-featuring-jk-simmons-large-4.jpg"
+                    alt="Commenter"
+                    style={{
+                      width: "100px",
+                      height: "100px",
+                      borderRadius: "50%",
+                    }}
+                  />
+                </div>
+                <div className="col-7">
+                  <h1 style={{ textAlign: "left" }}>Oliva Jonson</h1>
+                  <h5 style={{ textAlign: "left", color: "#70a73d" }}>
+                    NOVEMBER 19, 2020 AT 11:00 AM
+                  </h5>
+                  <p style={{ textAlign: "left" }}>
+                    It’s no secret that the digital industry is booming. From
+                    exciting startups to need ghor global and brands, companies
+                    are reaching out.
+                  </p>
+                </div>
+                <div className="col-2 replybutton">
+                  <button type="button">
+                    REPLY
+                    <span>
+                      <i className="bx bx-chevron-right"></i>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div className="container"></div>
+            <div className="container">
+              <h1 style={{ textAlign: "left" }}>Post A Comment</h1>
+            </div>
+
+            <div className="container">
+              <div className="row">
+                <br />
+                <div className="row">
+                  <p style={{ textAlign: "left" }}>
+                    Your email address will not be published *
+                  </p>
+                </div>
+                <br />
+                <div className="col-md-4">
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="name"
+                    placeholder="Name"
+                  />
+                </div>
+                <br />
+                <div className="col-md-4">
+                  <input
+                    type="email"
+                    className="form-control"
+                    id="email"
+                    placeholder="Mail"
+                  />
+                </div>
+                <br />
+                <div className="col-md-4">
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="mobile"
+                    placeholder="Mobile"
+                  />
+                </div>
+              </div>
+              <br />
+              <div className="row">
+                <div className="form-check">
+                  <input
+                    type="checkbox"
+                    className="form-check-input"
+                    id="saveDetails"
+                  />
+                  <div style={{ textAlign: "left" }}>
+                    <label className="form-check-label" htmlFor="saveDetails">
+                      Save my details in this browser for the next time I
+                      comment.
+                    </label>
+                  </div>
+                </div>
+                <textarea
+                  className="form-control"
+                  id="comment"
+                  placeholder="Your Comment Here..."
+                  rows="4"
+                ></textarea>
+              </div>
+              <br />
+              <div style={{ textAlign: "left" }}>
+                <button type="button" style={{ backgroundColor: "#a5d27b" }}>
+                  POST COMMENT
+                </button>
+              </div>
+              <br />
+            </div>
+          </div>
+          <div className="col-3" style={{ backgroundColor: "#34495E" }}>
+            <br />
+            <br />
+            <br />
+            <div className="left-side">
+            <div className="input-container">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+                style={{ width: "60%", margin: "0 auto" }}
+              />
+
+              <i class="bx bx-search"></i>
+            </div>
+
+            <h1>Categories</h1>
+            <ul>
+              <li>
+                <a href="/blogs">Envato</a>
+                <span>3</span>
+              </li>
+
+              <li>
+                <a href="/blogs">Themeforest</a>
+                <span>2</span>
+              </li>
+              <li>
+                <a href="/blogs">Graphicriver</a>
+                <span>8</span>
+              </li>
+            </ul>
+            <br />
+            <br />
+            <br />
+            <div className="container"></div>
+            <h1>Recent News</h1>
+            <div className="row">
+              <div className="col-3">
+                <img
+                  src="https://images5.alphacoders.com/408/408910.jpg"
+                  alt="Recent News"
+                  style={{ width: "100px", height: "auto" }}
+                />
+              </div>
+              <div className="col-9">
+                <h5>Zechs Magnesium flakes especially...</h5>
+                <p>February 12, 2021</p>
+              </div>
+              <div className="col-3">
+                <img
+                  src="https://tse4.mm.bing.net/th?id=OIP._0WAC8KQqv3GsZr_xW-xBAHaEK&pid=Api&P=0&h=220"
+                  alt="Recent News"
+                  style={{ width: "100px", height: "auto" }}
+                />
+              </div>
+              <div className="col-9">
+                <h5>Finding a way to separate ‘work’ ...</h5>
+                <p>February 12, 2021</p>
+              </div>
+              <div className="col-3">
+                <img
+                  src="https://3.bp.blogspot.com/-HhZluWrnXo4/TkO_Jr1f8QI/AAAAAAAAK7U/eYAopH2_RiM/s1600/Fresh+Vegetables+HD+Wallpaper.jpg"
+                  alt="Recent News"
+                  style={{ width: "100px", height: "auto" }}
+                />
+              </div>
+              <div className="col-9">
+                <h5>Hunch over desk can cause pain.</h5>
+                <p>February 12, 2021</p>
+              </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <h1>Archives</h1>
+            <ul>
+              <li>
+                <a href="/blogs">November 2019</a>
+                <span>3</span>
+              </li>
+              <li>
+                <a href="/blogs">February 2020</a>
+                <span>2</span>
+              </li>
+              <li>
+                <a href="/blogs">September 2019</a>
+                <span>8</span>
+              </li>
+            </ul>
+            <br />
+            <br />
+            <br />
+            <PhotoGallery />
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+ {singleBlog ? (
+    <div className="blog-details-img position-relative"><img src={`${imagePath}${singleBlog.blog_images[0]}`} alt={singleBlog.blog_name}
+ style={{ height: "500px", width: "1200px" }}/></div> <div className="or-blog-details-item">
+ <div className="blog-details-text headline">
+ <div className="ord-blog-meta-2 position-relative text-capitalize">
+ <a href="#"><i className="far fa-clock"></i> {formatDate(singleBlog.date)}</a>
+                  <a href="#"><i className="far fa-user"></i> by admin</a>
+                  <a href="#"><i className="fas fa-tags"></i> Agriculture</a></div></div></div>
+ ) : (
+                <div className="text-center">No blog found.</div>
+              )}
